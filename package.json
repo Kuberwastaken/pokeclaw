@@ -1,0 +1,10 @@
+{
+  "name": "pokeclaw-bridge-blueprint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:stdio": "node ./src/bridge.mjs",
+    "start:http": "BRIDGE_MODE=http node ./src/bridge.mjs",
+    "start:both": "BRIDGE_MODE=both node ./src/bridge.mjs"
+  }
+}
